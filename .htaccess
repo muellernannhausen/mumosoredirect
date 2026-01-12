@@ -1,0 +1,3 @@
+# 2. Weiterleitung von mumoso.de (mit oder ohne www) auf muellernannhausen.de
+RewriteCond %{HTTP_HOST} ^(www\.)?mumoso\.de$ [NC]
+RewriteRule ^(.*)$ https://muellernannhausen.de/$1 [R=301,L]
