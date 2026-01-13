@@ -6,4 +6,4 @@
 #Redirect from old domain to new domain
 RewriteEngine on
 RewriteBase /
-RewriteRule (.*) https://muellernannhausen.de/$1 [R=301,L]
+RewriteRule ^(.*)$ https://muellernannhausen.de/$1 [R=301,L]
